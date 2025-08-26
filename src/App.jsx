@@ -13,7 +13,7 @@ const App = () => {
 
   return (
     <>
-    <header>
+{/*     <header>
       <nav>
         <h1 className="colorTitulo">Bienvenidos!</h1>
         <ul>
@@ -24,7 +24,9 @@ const App = () => {
 
         </ul>
       </nav>
-    </header>
+    </header> */}
+    <Boton texto="comprar"/>
+    <Boton texto="eliminar"/>
     </>
   )
 }

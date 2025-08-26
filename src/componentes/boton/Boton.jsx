@@ -1,8 +1,6 @@
-
-
-const Boton = () => {
+const Boton = (props) => {
   return (
-    <button>!Apretame!</button>
+    <button>{props.texto}</button>
   )
 }
 
